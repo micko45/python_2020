@@ -2,7 +2,6 @@
 #Typing tourtorial
 
 from random import randint
-from sys import exit
 
 correct = 0
 incorrect = 0
@@ -12,6 +11,10 @@ CODE = [
   '1','2', '3','4', '5',
   '6', '7', '8', '9', '0' 
   ]
+
+code_words = [
+  'print()', 'open(f)', 
+]
 
 def results(correct, incorrect):
   print("Result")
